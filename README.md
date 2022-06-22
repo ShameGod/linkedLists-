@@ -30,4 +30,7 @@ Adding an element takes a space complexity of o(1) but a time complexity of o(N)
 Given this list we just need to direct the pointer of the node prev to the node next (that we can find using the cur node)
 ![image](https://user-images.githubusercontent.com/42012627/174732510-1713b93f-4808-485a-84ae-23518d42c92c.png)
 
+### Exercise 1 : the design of a linked list 
+My solution is available here : https://github.com/ShameGod/linkedLists-/blob/main/designLinkedList.java
+The logic is quite easy here, I used a nested class (class declared inside another class) to define the bean Node, that has a value and a pointer to another node. 
 
