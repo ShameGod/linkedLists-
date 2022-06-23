@@ -36,6 +36,7 @@ The logic is quite easy here, I used a nested class (class declared inside anoth
 
 ### Two pointer technique for linked lists : 
 ![image](https://user-images.githubusercontent.com/42012627/175356269-a374dc59-e115-4bfe-9e96-3feae220aedc.png)
-
+https://github.com/ShameGod/linkedLists-/blob/main/twoPointerTechnique.java
+Space complexity = o(1) 
 It is a way to find out if a Linked list is a cycle or not.
-The first pointer P1 will stay in the first node, while P2 will move forward. If P2 has a value null, it means that he reached the end of the list and the listy is not a cycle. If P2 points to the same value as P1 it means that the linked list is a cycle. The complexity here is o(N), with N the number of elements in the linked List. 
+The first pointer P1 will move every 5 loops while the P2 moves every time. P2 iterates over the linked list faster than P1, if P1 reaches P2 at some point, it means that the List is a cycle. If P2 has a value null, it means that he reached the end of the list and the listy is not a cycle. If P2 points to the same value as P1 it means that the linked list is a cycle. The complexity here is o(N), with N the number of elements in the linked List. 
