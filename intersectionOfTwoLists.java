@@ -31,12 +31,13 @@ public class Solution {
             tallLength = tallLength-1;
         }
         //starting from this point the lists are in the same level
-        
         while(tallList !=null){
-            System.out.println("the two lists have the same size now ");
+            if(tallList == smallList){
+                return smallList;
+            }
             tallList = tallList.next;
-            smallList = tallList;
-            if(tallList == smallList){return smallList;}
+            smallList = smallList.next;
+            
         }
         return null;    
     }
@@ -49,7 +50,6 @@ public class Solution {
             index = index + 1;
             iterator = iterator.next;
         }
-        System.out.println("the list length is " + index);
         return index;
         
     }
