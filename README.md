@@ -43,3 +43,9 @@ The first pointer P1 will move every 5 loops while the P2 moves every time. P2 i
 
 **notice** we could have used hashmaps, but the space complexity would have been o(n) instead of o(1) 
 
+
+### Get the intersection of two linked lists 
+
+https://github.com/ShameGod/linkedLists-/blob/main/intersectionOfTwoLists.java
+Space complexity o(1) and time complexity of o(n)
+
