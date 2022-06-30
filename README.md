@@ -49,3 +49,7 @@ The first pointer P1 will move every 5 loops while the P2 moves every time. P2 i
 https://github.com/ShameGod/linkedLists-/blob/main/intersectionOfTwoLists.java
 Space complexity o(1) and time complexity of o(n)
 
+### Remove the nth Element 
+https://github.com/ShameGod/linkedLists-/blob/main/removeNthNode.java
+
+The key here is to treat all the cases and be careful to pay attention to details (index). I tried all the cases on a paper before finding it out
