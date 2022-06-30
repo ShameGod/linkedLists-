@@ -73,8 +73,7 @@ https://github.com/ShameGod/linkedLists-/blob/main/removeNthNode.java
 The key here is to treat all the cases and be careful to pay attention to details (index). I tried all the cases on a paper before finding it out
 
 
-**Note: always check two things with linked lists : 
+**Note**: always check two things with linked lists : 
        + that the node is not null before calling the node.next, it might cause a NPE
-       + check the conditions of a loop to not endup with an infinit loop 
-**
+       + check the conditions of a loop to not endup with an infinit loop
 
