@@ -43,6 +43,24 @@ The first pointer P1 will move every 5 loops while the P2 moves every time. P2 i
 
 **notice** we could have used hashmaps, but the space complexity would have been o(n) instead of o(1) 
 
+two pointer technique template
+```
+// Initialize slow & fast pointers
+ListNode slow = head;
+ListNode fast = head;
+/**
+ * Change this condition to fit specific problem.
+ * Attention: remember to avoid null-pointer error
+ **/
+while (slow != null && fast != null && fast.next != null) {
+    slow = slow.next;           // move slow pointer one step each time
+    fast = fast.next.next;      // move fast pointer two steps each time
+    if (slow == fast) {         // change this condition to fit specific problem
+        return true;
+    }
+}
+return false;   // change return value to fit specific problem
+```
 
 ### Get the intersection of two linked lists 
 
@@ -53,3 +71,10 @@ Space complexity o(1) and time complexity of o(n)
 https://github.com/ShameGod/linkedLists-/blob/main/removeNthNode.java
 
 The key here is to treat all the cases and be careful to pay attention to details (index). I tried all the cases on a paper before finding it out
+
+
+**Note: always check two things with linked lists : 
+       + that the node is not null before calling the node.next, it might cause a NPE
+       + check the conditions of a loop to not endup with an infinit loop 
+**
+
