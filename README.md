@@ -80,3 +80,12 @@ The key here is to treat all the cases and be careful to pay attention to detail
 ### Odd and even linked list : 
 
 We solve the problem here using a genius technique, we devide the linked list by two. a first linkedlist of even elements and another one of odd elements. At the end we link the tail of the first one with the head of the second
+
+### Palindrome dor linked lists : 
+We will resolve this in two steps : 
+
+* first the slow/ fast pointer technique : 
+We will move the fist pointer by one and the other by two. At the end the slow pointer will be in the middle of the linked list.
+then we revert the list starting from the middle (slow).
+After we compare the values one after the other
+
