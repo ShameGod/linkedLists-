@@ -86,6 +86,12 @@ We will resolve this in two steps :
 
 * first the slow/ fast pointer technique : 
 We will move the fist pointer by one and the other by two. At the end the slow pointer will be in the middle of the linked list.
-then we revert the list starting from the middle (slow).
+* then we revert the list starting from the middle (slow).
 After we compare the values one after the other
+
+## Useful tips for linked lists : 
+
+
+It is not easy to debug when using a linked list. Therefore, it is always useful to try several different examples on your own to validate your algorithm before writing code.
+ 
 
