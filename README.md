@@ -89,9 +89,11 @@ We will move the fist pointer by one and the other by two. At the end the slow p
 * then we revert the list starting from the middle (slow).
 After we compare the values one after the other
 
-## Useful tips for linked lists : 
+### Useful tips for linked lists : 
 
 
 It is not easy to debug when using a linked list. Therefore, it is always useful to try several different examples on your own to validate your algorithm before writing code.
  
+## Doubly linked lists : 
+All the operations are similar to the singly linked list. The time complexity is o(n). The space complexity of adding and deleteing is o(1). Deletion is easier with doubly lijnked lists as we already have the previous pointer.
 
