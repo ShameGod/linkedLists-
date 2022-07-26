@@ -99,3 +99,7 @@ All the operations are similar to the singly linked list. The time complexity is
 
 ### Copy List With Random Pointer : 
 In this exercise I use both Linked lists and Hashmaps. We can see how innovative linked lists can be. 
+
+### Rotate List : https://github.com/ShameGod/linkedLists-/blob/main/rotateList.java
+
+In this exercise the difficulty was to validate/ unvalidate hypotheses. To find the rule k % lengthof(list) I had to try with simple examples before making it a general rule (also feasable with the recurrence theoreme) 
