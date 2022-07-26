@@ -97,3 +97,5 @@ It is not easy to debug when using a linked list. Therefore, it is always useful
 ## Doubly linked lists : 
 All the operations are similar to the singly linked list. The time complexity is o(n). The space complexity of adding and deleteing is o(1). Deletion is easier with doubly lijnked lists as we already have the previous pointer.
 
+### Copy List With Random Pointer : 
+In this exercise I use both Linked lists and Hashmaps. We can see how innovative linked lists can be. 
